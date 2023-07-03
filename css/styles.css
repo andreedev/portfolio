@@ -1,0 +1,125 @@
+:root {
+    --var-color-1: #222;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+    border-style: none;
+}
+
+.wsp-float-btn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    left: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 26px;
+    z-index: 100;
+    transition: all 300ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.wsp-float-btn:hover{
+    transform: scale(1.05);
+    transition: all 300ms linear;
+    color: #fff;
+}
+
+
+.btn-mobile{
+    margin: 0 20px !important;
+}
+
+.bg-1{
+    background-color: #222;
+    background: url(../img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    background-size: cover;
+    /* min-height: calc(100vh - 0vh ); */
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.username{
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.intro-profesion{
+    font-weight: 300;
+}
+
+.intro-redes{
+    font-family: sans-serif !important;
+    min-width: 250px !important;
+    font-size: 25px;
+}
+
+.intro-redes a{
+    border: 1px solid rgba(247, 249, 249, .2);
+    transition: all 0ms !important;
+}
+
+
+
+.skills{
+    position: relative;
+    background-color: #222;
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.skill-icon{
+    transition: all 300ms linear;
+}
+
+.skill-icon-image{
+    transition: all 300ms linear;
+}
+
+.skill-icon:hover, .skill-icon-image:hover{
+    transform: scale(1.2);
+    transition: all 300ms linear;
+}
+
+.responsive-icon, .jquery-icon{
+    max-width: 55px;
+    background-color: #fff;
+    padding: 9px;
+    border-radius: 5px;
+    transition: all 300ms linear;
+}
+
+
+
+.navbar-toggler{
+    padding: .25rem 0.50rem !important;
+}
+
+.hover-blue:hover{
+    color: #116ed1 !important;
+    transition: all 300ms linear;
+}
+
+
+
+/* extras */
+.rare1:hover{
+    background-color: rgb(153, 153, 153) !important;
+}
